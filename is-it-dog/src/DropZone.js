@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-//import './DropZone.css'; // Styles for the drop zone
+import './DropZone.css'; // Styles for the drop zone
 
 const DropZone = ({ onFilesDropped }) => {
   const [isDragOver, setIsDragOver] = useState(false);
@@ -36,6 +36,7 @@ const DropZone = ({ onFilesDropped }) => {
   };
 
   return (
+    <div className='drop-box'>
     <div
       className={`drop-zone ${isDragOver ? 'drag-over' : ''}`}
       onDragOver={handleDragOver}
@@ -59,6 +60,7 @@ const DropZone = ({ onFilesDropped }) => {
           <img key={index} src={URL.createObjectURL(image)} alt={`Dropped Image ${index}`} />
         ))}
       </div>
+    </div>
     </div>
   );
 };
