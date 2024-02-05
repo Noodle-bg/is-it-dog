@@ -7,3 +7,25 @@
 .output-tab{
   background-color: blue;
 }
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upload-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.prediction-bars {
+  flex: 1;
+}
+
+.dog-bar, .cat-bar {
+  margin-bottom: 10px;
+}
+
+.bar {
+  height: 20px;
+  background-color: #4CAF50;
+}
