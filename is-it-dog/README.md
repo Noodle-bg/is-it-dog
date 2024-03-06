@@ -1,3 +1,21 @@
+# Is-It-DOG?
+
+This distinguishes between a dog and a cat based on any image..
+This is a basic website i built to test out if my neural network model would work on a website.
+The frontend is pretty basic and just gets the job done
+I am using a .pkl file to upload my model as of now which is the backend. You can find this on my guthub itself and should be called "is-it-dog-flask".
+Most of the important stuff is there so I'll find you there.
+
+## Why this:
+
+I recently built my first model so i wanted to deploy it, I first tried to make it work in HuggingSpace and would reccomend anyone who wants to deploy a model on a website first use this method to test your build.
+
+## How to Run it:
+
+1.I tried to host the flask server online for free but didnt find my fit.
+2.You will need to first start up the flask server on your device which is available on my gitbhub as well.
+3.Then you can run this react app and it should work just fine.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
